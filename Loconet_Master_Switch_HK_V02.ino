@@ -20,7 +20,7 @@
 
 DESCRIPTION:
 This is a Loconet OPC_GPON and OPC_GPOFF Switch
-- It uses an Arduino Pro Mini 5v 16MHz or a Arduino Nano
+- It uses an Arduino Pro Mini 5v 16MHz or a Arduino Nano ATMega328P/ATMega168
 
 Loconet:
 - TX pin D7
@@ -46,10 +46,10 @@ Edits Monobrachius 2022
 #include <Bounce2.h>
 
 //Definitions
-const int  EStopLatching              = 0;    //1 = latching (thus keeping E-Stop while pushed), 0 = momentary
+const int  EStopLatching              = 0;    //1 = latching (button does not fall back, but needs turning/pushing to return to "normal" position), 0 = momentary
 const int  EStopNCtype                = 0;    //1 = NC, 0 = NO
 const int  EStopOneButtonForAll       = 0;    //1 = one momentary button for set and reset, 0 for two buttons or a latching button
-const int  EStopKeptActiveWhilePushed = 0;    //1 = latching (thus keeping E-Stop while pushed), 0 = momentary
+const int  EStopKeptActiveWhilePushed = 0;    //1 = Keeping E-Stop while pushed, 0 = E-Stop can be reset while button is still pushed.
 
 //Buttons
 const byte RedButtonPin   = 3;          //as defined in EStopNCtype   //PCB V2.0 pin 3, PCB V1.0 pin 11
