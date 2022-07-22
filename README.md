@@ -3,6 +3,7 @@
 1. Download and install the Arduino IDE software: https://www.arduino.cc/en/software  
 2. Install relevant libraries: Top bar: Tools -> Manage libraries -> 
   - search for "Loconet" and install latest version  
+  ![This is an image](/images/instructions/Find_loconet_library.PNG)
   - search for "Bounce2" and install latest version  
 3. Download the .ino file from https://github.com/Monobrachius/Loconet_Master_Switch which contains the code for the emergency stop button.  
    At this moment I cannot find the download button, so you have to manually copy the code from: https://github.com/Monobrachius/Loconet_Master_Switch/blob/main/Loconet_Master_Switch_HK_V02.ino  
