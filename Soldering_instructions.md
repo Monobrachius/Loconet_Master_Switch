@@ -1,4 +1,4 @@
-# Soldering instructions
+# Soldering instructions (for Loconet)
 
 1. See which lights you have. By default 5V is applied with a 330 Ohm resistor (R20 and R21) in series.  
 In case your lights are not bright enough, there are three options:  
