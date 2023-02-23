@@ -21,9 +21,17 @@ After this solder the rest of the pins.
   ![This is an image](/images/instructions/step2.jpeg)  
   It can be handy to use place the Arduino already in and after that solder the headers.
   ![This is an image](/images/instructions/step3.jpeg)  
-  Also here, it is adviseble to first solder the top and bottom pin, check orientation, correct if needed and after that continue to solder all the other pins.  If the orientation is good, remove the Arduino, otherwise you are during soldering also heating up those pins (will still work, but takes longer).  
-5.  If you decided in step 2 to use a DC/DC converter, place this one as in the picture (it should fit inside the white box on the PCB).
+  Also here, it is adviseble to first solder the top and bottom pin, check orientation, correct if needed and after that continue to solder all the other pins.  If the orientation is good, remove the Arduino, otherwise you are during soldering also heating up those pins (will still work, but takes longer). 
+  
+5. OPTIONAL I2C headers
+   It is possible to place headers for an additional display (not supported in the code, for the tinkerers) or other sensors.
+   Most people will not need this, but the headers are provided and can be soldered on J2 and J3
+  
+  
+6.  If you decided in step 2 to use a DC/DC converter, place this one as in the picture (it should fit inside the white box on the PCB).
   If you decide to use a different DC/DC converter as the XP Power VR05S05, make sure to check the datasheet. Some DC/DC converters (e.g. some Recom) have the orientation mirrored. The input pin is located closest to the Loconet connectors.
-  ![This is an image](/images/instructions/step4.jpeg)
+  ![This is an image](/images/instructions/step4.jpeg)  
+  
+7. Place the Loconet connectors and solder them. 
   ![This is an image](/images/instructions/step5.jpeg)
   
