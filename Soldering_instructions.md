@@ -11,13 +11,13 @@ In case your lights are not bright enough, there are three options:
 ## Soldering components
 The easiest approach is to solder from lowest componets to highest.
 
-3. place the 6-pole connector for the Emergency stop button on position J8. Make sure that the pins for the counter connector are on the outside.
+3. place the 6-pole connector for the Emergency stop button on position J8. Make sure that the pins for the counter connector are on the outside.  
   ![This is an image](/images/instructions/step1a.jpeg)  
   Turn the board around and solder one pin. It is easiest to start with RD+ (GND is connected to the board plane and requires more heat to solder).  
-    ![This is an image](/images/instructions/step1b.jpeg)  
+  ![This is an image](/images/instructions/step1b.jpeg)  
   If the first pin is soldered, check if the connector presses everywhere agains the board and is straight. If not, heat up pin RD+ and correct the location.  
 After this solder the rest of the pins.
-4. place the arduino headers.
+4. place the arduino headers.  
   ![This is an image](/images/instructions/step2.jpeg)  
   It can be handy to use place the Arduino already in and after that solder the headers.
   ![This is an image](/images/instructions/step3.jpeg)  
