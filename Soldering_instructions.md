@@ -8,7 +8,7 @@ In case your lights are not bright enough, there are three options:
 -  2) increase the voltage to the light to the Loconet Voltage by cutting the jumper on RAW_5V0 with a sharp knife (measure with a multimeter if there if the pads are really seperate) and put a solder blob between the middle pad and the pad below the RAW text. 
 -  3) combine 1) and 2).
 
-2. First decide if you want to use the a DC/DC converter (e.g. XP Power VR05S05) or to feed the Arduino directly from Loconet power. A good DC/DC converter can reduce the power consumption up to 50%, however a bad one hardly has effect. See https://forum.beneluxspoor.net/index.php?topic=13589.msg3222318435#msg3222318435 for the tested situations and see what fits your case best.
+2. Decide if you want to use the a DC/DC converter (e.g. XP Power VR05S05) or to feed the Arduino directly from Loconet power. A good DC/DC converter can reduce the power consumption up to 50%, however a bad one hardly has effect. See https://forum.beneluxspoor.net/index.php?topic=13589.msg3222318435#msg3222318435 for the tested situations and see what fits your case best.
    In case you do not want to use a DC/DC converter, put a solder blob on solderings pads RAW1 to power the Arduino directly from Loconet.  
    NOTE: it is not recommended to power the Arduino with voltages above 12VDC.
 
