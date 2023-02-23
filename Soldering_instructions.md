@@ -12,5 +12,10 @@ In case your lights are not bright enough, there are three options:
   - search for "Loconet" and install latest version  
   ![This is an image](/images/instructions/step1a.jpeg)
   - search for "Bounce2" and install latest version  
-  ![This is an image](/images/instructions/Find_Bounce2_library.PNG)
+  ![This is an image](/images/instructions/step1b.jpeg)
+  ![This is an image](/images/instructions/step1b.jpeg)
+  ![This is an image](/images/instructions/step2.jpeg)
+  ![This is an image](/images/instructions/step3.jpeg)
+  ![This is an image](/images/instructions/step4.jpeg)
+  ![This is an image](/images/instructions/step5.jpeg)
   
